@@ -1,0 +1,88 @@
+{
+  "dataset_name": "pricing_analysis",
+  "generated_at": "2026-01-21T00:22:43.125609",
+  "row_count": 36,
+  "columns": [
+    {
+      "name": "amount_bucket",
+      "dtype": "category",
+      "non_null_count": 36,
+      "unique_values": 6
+    },
+    {
+      "name": "pricing_tier",
+      "dtype": "object",
+      "non_null_count": 36,
+      "unique_values": 3
+    },
+    {
+      "name": "is_cross_border",
+      "dtype": "bool",
+      "non_null_count": 36,
+      "unique_values": 2
+    },
+    {
+      "name": "transaction_count",
+      "dtype": "int64",
+      "non_null_count": 36,
+      "unique_values": 34,
+      "min": 0.0,
+      "max": 25682.0,
+      "mean": 2777.777777777778
+    },
+    {
+      "name": "total_volume",
+      "dtype": "float64",
+      "non_null_count": 36,
+      "unique_values": 36,
+      "min": 0.0,
+      "max": 1350329.8,
+      "mean": 167921.94416666668
+    },
+    {
+      "name": "avg_amount",
+      "dtype": "float64",
+      "non_null_count": 35,
+      "unique_values": 35,
+      "min": 5.661172248803828,
+      "max": 1347.53,
+      "mean": 340.4605473556407
+    },
+    {
+      "name": "total_fees",
+      "dtype": "float64",
+      "non_null_count": 36,
+      "unique_values": 36,
+      "min": 0.0,
+      "max": 35944.88,
+      "mean": 5345.395
+    },
+    {
+      "name": "avg_fee",
+      "dtype": "float64",
+      "non_null_count": 35,
+      "unique_values": 35,
+      "min": 0.44021985343104597,
+      "max": 53.23,
+      "mean": 11.301545591445656
+    },
+    {
+      "name": "avg_fee_rate",
+      "dtype": "float64",
+      "non_null_count": 35,
+      "unique_values": 8,
+      "min": 0.022,
+      "max": 0.044000000000000004,
+      "mean": 0.03271428571428572
+    },
+    {
+      "name": "effective_rate",
+      "dtype": "float64",
+      "non_null_count": 35,
+      "unique_values": 35,
+      "min": 0.02222585025936343,
+      "max": 0.09271996164796352,
+      "mean": 0.04414747774719378
+    }
+  ]
+}

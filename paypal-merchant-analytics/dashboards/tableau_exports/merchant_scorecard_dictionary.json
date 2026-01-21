@@ -1,0 +1,175 @@
+{
+  "dataset_name": "merchant_scorecard",
+  "generated_at": "2026-01-21T00:22:43.087695",
+  "row_count": 3000,
+  "columns": [
+    {
+      "name": "merchant_id",
+      "dtype": "object",
+      "non_null_count": 3000,
+      "unique_values": 3000
+    },
+    {
+      "name": "business_category",
+      "dtype": "object",
+      "non_null_count": 3000,
+      "unique_values": 12
+    },
+    {
+      "name": "region",
+      "dtype": "object",
+      "non_null_count": 3000,
+      "unique_values": 5
+    },
+    {
+      "name": "country",
+      "dtype": "object",
+      "non_null_count": 3000,
+      "unique_values": 22
+    },
+    {
+      "name": "account_created",
+      "dtype": "object",
+      "non_null_count": 3000,
+      "unique_values": 128
+    },
+    {
+      "name": "account_age_months",
+      "dtype": "int64",
+      "non_null_count": 3000,
+      "unique_values": 128,
+      "min": 1.0,
+      "max": 180.0,
+      "mean": 24.413
+    },
+    {
+      "name": "pricing_tier",
+      "dtype": "object",
+      "non_null_count": 3000,
+      "unique_values": 3
+    },
+    {
+      "name": "monthly_volume_usd",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 2993,
+      "min": 27.61,
+      "max": 1015919.62,
+      "mean": 10562.773603333333
+    },
+    {
+      "name": "avg_transaction_size_x",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 2554,
+      "min": 0.96,
+      "max": 787.08,
+      "mean": 54.24123
+    },
+    {
+      "name": "cross_border_enabled",
+      "dtype": "bool",
+      "non_null_count": 3000,
+      "unique_values": 2
+    },
+    {
+      "name": "churn_risk_score",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 2059,
+      "min": 0.0017,
+      "max": 0.7498,
+      "mean": 0.19346576666666662
+    },
+    {
+      "name": "has_premium_support",
+      "dtype": "bool",
+      "non_null_count": 3000,
+      "unique_values": 2
+    },
+    {
+      "name": "integration_type",
+      "dtype": "object",
+      "non_null_count": 3000,
+      "unique_values": 4
+    },
+    {
+      "name": "dispute_rate",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 655,
+      "min": 0.0,
+      "max": 0.1422,
+      "mean": 0.019553333333333332
+    },
+    {
+      "name": "refund_rate",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 1255,
+      "min": 0.0012,
+      "max": 0.3682,
+      "mean": 0.06292696666666667
+    },
+    {
+      "name": "transaction_count",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 240,
+      "min": 0.0,
+      "max": 3251.0,
+      "mean": 33.333333333333336
+    },
+    {
+      "name": "total_volume",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 2823,
+      "min": 0.0,
+      "max": 280358.87,
+      "mean": 2015.0633300000002
+    },
+    {
+      "name": "avg_transaction_size_y",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 2833,
+      "min": 0.0,
+      "max": 2103.04,
+      "mean": 58.45293154247369
+    },
+    {
+      "name": "total_fees",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 2370,
+      "min": 0.0,
+      "max": 7143.43,
+      "mean": 64.14474
+    },
+    {
+      "name": "success_rate",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 370,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.9030011181174098
+    },
+    {
+      "name": "cross_border_ratio",
+      "dtype": "float64",
+      "non_null_count": 3000,
+      "unique_values": 300,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.10920001413564713
+    },
+    {
+      "name": "risk_tier",
+      "dtype": "object",
+      "non_null_count": 3000,
+      "unique_values": 3
+    }
+  ]
+}

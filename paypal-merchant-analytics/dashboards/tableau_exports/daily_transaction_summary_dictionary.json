@@ -1,0 +1,88 @@
+{
+  "dataset_name": "daily_transaction_summary",
+  "generated_at": "2026-01-21T00:22:42.792966",
+  "row_count": 33408,
+  "columns": [
+    {
+      "name": "date",
+      "dtype": "object",
+      "non_null_count": 33408,
+      "unique_values": 730
+    },
+    {
+      "name": "business_category",
+      "dtype": "object",
+      "non_null_count": 33408,
+      "unique_values": 12
+    },
+    {
+      "name": "region",
+      "dtype": "object",
+      "non_null_count": 33408,
+      "unique_values": 5
+    },
+    {
+      "name": "transaction_count",
+      "dtype": "int64",
+      "non_null_count": 33408,
+      "unique_values": 18,
+      "min": 1.0,
+      "max": 18.0,
+      "mean": 2.993295019157088
+    },
+    {
+      "name": "total_volume",
+      "dtype": "float64",
+      "non_null_count": 33408,
+      "unique_values": 23856,
+      "min": 1.0,
+      "max": 3525.08,
+      "mean": 180.95037086925288
+    },
+    {
+      "name": "avg_transaction_size",
+      "dtype": "float64",
+      "non_null_count": 33408,
+      "unique_values": 25334,
+      "min": 1.0,
+      "max": 1397.7,
+      "mean": 59.987672836174376
+    },
+    {
+      "name": "total_fees",
+      "dtype": "float64",
+      "non_null_count": 33408,
+      "unique_values": 3820,
+      "min": 0.33,
+      "max": 89.64,
+      "mean": 5.7601239224137935
+    },
+    {
+      "name": "cross_border_count",
+      "dtype": "int64",
+      "non_null_count": 33408,
+      "unique_values": 6,
+      "min": 0.0,
+      "max": 5.0,
+      "mean": 0.3242037835249042
+    },
+    {
+      "name": "take_rate",
+      "dtype": "float64",
+      "non_null_count": 33408,
+      "unique_values": 31048,
+      "min": 0.022771036069217748,
+      "max": 0.33,
+      "mean": 0.038485004685936436
+    },
+    {
+      "name": "cross_border_ratio",
+      "dtype": "float64",
+      "non_null_count": 33408,
+      "unique_values": 36,
+      "min": 0.0,
+      "max": 1.0,
+      "mean": 0.10945454865036032
+    }
+  ]
+}

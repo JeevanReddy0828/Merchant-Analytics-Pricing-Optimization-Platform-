@@ -1,0 +1,23 @@
+{
+  "report_month": "2024-12",
+  "generated_at": "2026-01-21T00:22:43.170761",
+  "transaction_metrics": {
+    "total_transactions": 4186,
+    "total_volume_usd": 301415.54,
+    "total_fees_usd": 9337.47,
+    "avg_transaction_size": 72.01,
+    "mom_transaction_change": 2.22,
+    "mom_volume_change": -1.43
+  },
+  "merchant_metrics": {
+    "total_merchants": 3000,
+    "active_merchants": 1362,
+    "new_merchants": 128,
+    "high_risk_merchants": 516
+  },
+  "performance_metrics": {
+    "success_rate": 94.72,
+    "cross_border_ratio": 10.61,
+    "effective_take_rate": 3.098
+  }
+}
